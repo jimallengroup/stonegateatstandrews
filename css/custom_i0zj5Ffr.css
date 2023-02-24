@@ -1,7 +1,7 @@
 /* Slide 16 (#1) */
-/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-16-0bcce743"] */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-16-909cdf8e"] */
 @media (max-width: 1023px) {
-  .slide[data-cid=slide-16-0bcce743] .cell-16 {
+  .slide[data-cid=slide-16-909cdf8e] .cell-16 {
     padding-bottom: 35px;
   }
 }
@@ -28,6 +28,32 @@
 @media (max-width: 767px) {
   .slide[data-cid=slide-29-39ea32c3] .cell-29 {
     padding-bottom: 35px;
+  }
+}
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-29-39ea32c3"] */
+.slide[data-cid=slide-29-39ea32c3] .swiper-115 .swiper-button-next, .slide[data-cid=slide-29-39ea32c3] .swiper-115 .swiper-button-prev {
+  height: 30px;
+  width: 30px;
+  margin-top: 0;
+  top: 156px;
+}
+.slide[data-cid=slide-29-39ea32c3] .swiper-115 .swiper-button-prev {
+  left: -80px;
+}
+.slide[data-cid=slide-29-39ea32c3] .swiper-115 .swiper-button-next {
+  right: -80px;
+}
+@media (max-width: 1023px) {
+  .slide[data-cid=slide-29-39ea32c3] .swiper-115 .swiper-button-prev {
+    left: calc(50% - 60px);
+    bottom: -60px;
+    top: auto;
+  }
+  .slide[data-cid=slide-29-39ea32c3] .swiper-115 .swiper-button-next {
+    right: calc(50% - 60px);
+    bottom: -60px;
+    top: auto;
   }
 }
 

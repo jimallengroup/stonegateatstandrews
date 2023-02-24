@@ -8,8 +8,8 @@ More information here: https://slides.gitbook.io/manual/scss
 @import "variables-custom.scss";
 
 /* Slide 16 (#1) */
-/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-16-0bcce743"] */
-.slide[data-cid="slide-16-0bcce743"]{
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-16-909cdf8e"] */
+.slide[data-cid="slide-16-909cdf8e"]{
   @include media($tablet, max) {
     .cell-16 {
       padding-bottom: 35px;
@@ -42,6 +42,35 @@ More information here: https://slides.gitbook.io/manual/scss
   @include media($phablet, max) {
     .cell-29 {
       padding-bottom: 35px;
+    }
+  }
+}
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-29-39ea32c3"] */
+.slide[data-cid="slide-29-39ea32c3"]{
+  .swiper-115{
+    .swiper-button-next, .swiper-button-prev{
+      height:30px;
+      width:30px;
+      margin-top:0;
+      top: 156px;
+    }
+    .swiper-button-prev{
+      left: -80px;
+    }
+    .swiper-button-next{
+      right: -80px;
+    }
+    @include media($tablet, max) {
+      .swiper-button-prev{
+          left: calc(50% - 60px);
+          bottom: -60px;
+          top: auto;    
+      }
+      .swiper-button-next{
+          right: calc(50% - 60px);
+          bottom: -60px;
+          top: auto;    
+      }   
     }
   }
 }
