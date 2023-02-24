@@ -1,0 +1,6 @@
+$white: #ffffff;
+@include generateColors('white',$white);
+$everything: #2c2d30;
+@include generateColors('everything',$everything);
+$tan: #f4c59b;
+@include generateColors('tan',$tan);

@@ -1,0 +1,38 @@
+/* Slide 16 (#1) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-16-0bcce743"] */
+@media (max-width: 1023px) {
+  .slide[data-cid=slide-16-0bcce743] .cell-16 {
+    padding-bottom: 35px;
+  }
+}
+
+/* Slide 46 (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-703b9d3c"] */
+@media (max-width: 767px) {
+  .slide[data-cid=slide-46-703b9d3c] .box-46 {
+    margin-bottom: 30px;
+  }
+}
+.slide[data-cid=slide-46-703b9d3c].whiteSlide .box-46 .shadow {
+  box-shadow: none;
+}
+
+/* Slide 29 (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-29-39ea32c3"] */
+@media (min-width: 768px) {
+  .slide[data-cid=slide-29-39ea32c3] .iphone-29 {
+    margin-top: -228px;
+    margin-bottom: -228px;
+  }
+}
+@media (max-width: 767px) {
+  .slide[data-cid=slide-29-39ea32c3] .cell-29 {
+    padding-bottom: 35px;
+  }
+}
+
+/* Slide 130 (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-130-a1fa2038"] */
+.slide[data-cid=slide-130-a1fa2038] .img-130 {
+  max-width: unset;
+}

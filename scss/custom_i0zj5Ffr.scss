@@ -1,0 +1,55 @@
+/* 
+Compile this file to css/custom_i0zj5Ffr.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+@import "variables.scss";
+@import "variables-custom.scss";
+
+/* Slide 16 (#1) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-16-0bcce743"] */
+.slide[data-cid="slide-16-0bcce743"]{
+  @include media($tablet, max) {
+    .cell-16 {
+      padding-bottom: 35px;
+    }
+  }
+}
+
+/* Slide 46 (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-703b9d3c"] */
+.slide[data-cid="slide-46-703b9d3c"]{
+  @include media($phablet, max) {
+    .box-46 {
+      margin-bottom: 30px;
+    }
+  }
+  &.whiteSlide .box-46 .shadow {
+    box-shadow: none;
+  }
+}
+
+/* Slide 29 (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-29-39ea32c3"] */
+.slide[data-cid="slide-29-39ea32c3"]{
+  @include media($phablet, min) {
+    .iphone-29 {
+      margin-top: -228px;
+      margin-bottom: -228px;
+    }
+  }
+  @include media($phablet, max) {
+    .cell-29 {
+      padding-bottom: 35px;
+    }
+  }
+}
+
+/* Slide 130 (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-130-a1fa2038"] */
+.slide[data-cid="slide-130-a1fa2038"]{
+  .img-130{
+    max-width:unset;
+  }
+}
